@@ -1,0 +1,212 @@
+
+/*Malom hattere*/
+
+body {
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    max-width: 30%;
+}
+
+#gameComment {
+    height: 150px;
+    width: 1000px;
+}
+
+/* Szovegek*/
+h1 {
+    font-size: 50px;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-family: fantasy;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 20px;
+    margin-left: 100px;
+    font-family: fantasy;
+    font-weight: bold;
+}
+
+.layOutSide {
+    margin: 100px;
+    margin-top: 30px;
+    width: 600px;
+    height: 600px;
+    padding: 0px;
+    border: solid 10px white;
+    position: absolute;
+}
+
+.lineVertical {
+    margin: 0px;
+    padding: 0px;
+    width: 10px;
+    height: 620px;
+    background-color: white;
+    position: relative;
+    top: -10px;
+    left: 295px;
+    position: absolute;
+}
+
+.lineHorizontal {
+    margin: 0px;
+    padding: 0px;
+    width: 620px;
+    height: 10px;
+    background-color: white;
+    position: relative;
+    top: 295px;
+    left: -10px;
+    position: absolute;
+}
+
+.layOutInSide {
+    margin: 0px;
+    width: 295px;
+    height: 295px;
+    padding: 0px;
+    border: solid 10px white;
+    position: relative;
+    top: 140px;
+    left: 140px;
+    background-color: gray;
+}
+.points {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+#Out-0-0 {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
+
+#Out-0-1 {
+    position: absolute;
+    top: -15px;
+    left: -15px;
+}
+
+#Out-0-2 {
+    position: absolute;
+    top: -25px;
+    left: 585px;
+}
+
+#Out-2-0 {
+    position: absolute;
+    top: 585px;
+    left: -25px;
+}
+
+#Out-1-0 {
+    position: absolute;
+    top: 277.5px;
+    left: -25px;
+}
+
+#Out-1-2 {
+    position: absolute;
+    top: 277.5px;
+    left: 585px;
+}
+
+#Out-2-2 {
+    position: absolute;
+    top: 585px;
+    left: 585px;
+}
+
+#Out-2-1 {
+    position: absolute;
+    top: 585px;
+    left: 280.5px;
+}
+
+#In-0-1 {
+    position: absolute;
+    top: 125px;
+    left: 280.5px;
+}
+
+#In-1-0 {
+    position: absolute;
+    top: 277.5px;
+    left: 125px;
+}
+
+#In-1-2 {
+    position: absolute;
+    top: 277.5px;
+    left: 430px;
+}
+
+#In-2-2 {
+    position: absolute;
+    top: 427px;
+    left: 430px;
+}
+
+#In-2-1 {
+    position: absolute;
+    top: 427px;
+    left: 280px;
+}
+#In-2-0 {
+    position: absolute;
+    top: 427px;
+    left: 125px;
+}
+
+#In-0-0 {
+    position: absolute;
+    top: 125px;
+    left: 125px;
+}
+#In-0-2 {
+    position: absolute;
+    top: 125px;
+    left: 430px;
+}
+
+.player1Point {
+    position: absolute;
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.player2Point {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: blue;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.player1PointRemove {
+    width: 30px;
+    height: 30px;
+    border: solid 5px;
+    border-radius: 20px;
+    border-color: red;
+    background-color: white;
+}
+
+.player2PointRemove {
+    width: 30px;
+    height: 30px;
+    border: solid 5px;
+    border-radius: 20px;
+    border-color: blue;
+    background-color: white;
+}
