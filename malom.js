@@ -129,18 +129,20 @@ function canFly(currPlayerNum) {     //ha kevesebb babuja van mint 4, akkor atal
 
 function nextTurn(player) { //jatek level + jatekos kiiratasa
     nextPlayer = 3 - playerNum
+    var gameLevel = document.getElementById("gameLevel")
+
     if (num < (steps - 1) && !canFly(nextPlayer)) {
-        document.getElementById("gameLevel").innerHTML = 'Babuk lerakasa'
-        document.getElementById("gameLevel").setAttribute('class', 'text')
+        gameLevel.innerHTML = 'Babuk lerakasa'
+        gameLevel.setAttribute('class', 'text')
     }
     else {
         if (canFly(nextPlayer)) {
-            document.getElementById("gameLevel").innerHTML = 'Tudsz repulni'
-            document.getElementById("gameLevel").setAttribute('class', 'text')
+            gameLevel.innerHTML = 'Tudsz repulni'
+            gameLevel.setAttribute('class', 'text')
         }
         else {
-            document.getElementById("gameLevel").innerHTML = 'Lepegetes'
-            document.getElementById("gameLevel").setAttribute('class', 'text')
+            gameLevel.innerHTML = 'Lepegetes'
+            gameLevel.setAttribute('class', 'text')
         }
     }
     document.getElementById("nextPlayer").innerHTML = getPlayerName(playerNum) + ' játékos következik'
